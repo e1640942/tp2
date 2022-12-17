@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tp2</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+  </head>
+  <body>
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#tableau">Tableau</a>
+      <a href="#article">Article</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#video">Vidéo</a>
+      <a href="#pied-page">Pied&nbsp;de&nbsp;page</a>
+    </nav>
+    <!------------------------------------- Accueil ------------------->
+    <section id="accueil">
+      <h1>TP2</h1>
+      <h2>Hollow Knight</h2>
+      <h3>
+        Autrice: Emily Joly <a href="http://github.com/e1640942">github</a>
+      </h3>
+      <p>
+        1W1 - Mise en page web - Technique d'intégration multimédia - Collège de
+        Maisonneuve - Automne 2021
+      </p>
+    </section>
+    <!------------------------------------- Inscription -------------->
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <form>
+        <div class="boite">
+          <label
+            >Nom d'utilisateur
+            <input
+              placeholder="Entrez nom d'utilisateur"
+              type="text"
+              name=""
+              id="txtNom"
+            />
+          </label>
+          <label
+            >Mot de passe
+            <input
+              placeholder="Entrez mot de passe"
+              type="password"
+              name=""
+              id="txtpass"
+            />
+          </label>
+          <label
+            >Courriel
+            <input
+              placeholder="Entrez courriel"
+              type="email"
+              name=""
+              id="txtEmail"
+            />
+          </label>
+        </div>
+        <div class="chkbox">
+          <label for="magician"
+            ><input type="checkbox" name="" id="magician" />Magician</label
+          >
+          <label for="rogue"
+            ><input type="checkbox" name="" id="rogue" />Rogue</label
+          >
+          <label for="fighter"
+            ><input type="checkbox" name="" id="fighter" />Fighter</label
+          >
+          <label for="ranger"
+            ><input type="checkbox" name="" id="ranger" />Ranger</label
+          >
+        </div>
+        <div class="bouton">
+          <button type="submit" form="form1" value="Submit">Soumettre</button>
+          <input type="reset" value="Reinitialiser" />
+        </div>
+      </form>
+    </section>
+    <!------------------------------------- Tableau ------------------>
+    <section id="tableau">
+      <h1>Tableau</h1>
+      <table class="_tableau">
+        <tbody>
+          <tr>
+            <th>Lorem, ipsum.</th>
+            <th>Reiciendis, architecto.</th>
+            <th>Quibusdam, deleniti.</th>
+            <th>Corporis, odit.</th>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Molestias, consequuntur.</td>
+            <td>Libero, quaerat!</td>
+            <td>Dolore, fugiat.</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Voluptatibus, natus!</td>
+            <td>Ut, recusandae!</td>
+            <td>Magni, non.</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Atque, molestias?</td>
+            <td>Numquam, voluptas!</td>
+            <td>Atque, sint!</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum.</td>
+            <td>Magnam, temporibus!</td>
+            <td>Tenetur, iure?</td>
+            <td>Ullam, ex?</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <!------------------------------------- Article ------------------->
+    <section id="article">
+      <h1>Article</h1>
+      <h2>Silksong</h2>
+
+      <article class="principal">
+        <div>
+          <h3>A Distant Land</h3>
+          <p>
+            Hornet, princess-protector of Hallownest, finds herself alone in a
+            vast, unfamiliar world. She must battle foes, seek out allies, and
+            solve mysteries as she ascends on a deadly pilgrimage to the
+            kingdom's peak. Bound by her lineage and guided by echoes of her
+            past, Hornet will adventure through mossy grottos, coral forests and
+            shining citadels to unravel a deadly thread that threatens this
+            strange new land.
+          </p>
+        </div>
+        <figure>
+          <img width="250" height="150" src="images/silksong.jpg" alt="" />
+          <figcaption>Fight</figcaption>
+        </figure>
+      </article>
+      <article class="principal">
+        <div>
+          <h3>Lethal Acrobatic Action</h3>
+          <p>
+            Hornet must master a whole new suite of powerful moves to survive.
+            She'll unleash devastating attacks, learn incredible silken
+            abilities, and craft deadly tools in order to overcome the kingdom's
+            challenges. Over 150 all-new foes stand between Hornet and the
+            shining citadel crowning the kingdom. Beasts and hunters, assassins
+            and kings, monsters and knights - Hornet must face them all with
+            bravery and skill!
+          </p>
+        </div>
+        <figure>
+          <img width="250" height="150" src="images/battle.jpg" alt="" />
+          <figcaption>aaaaaaaaah</figcaption>
+        </figure>
+      </article>
+    </section>
+    <!------------------------------------- Galerie -------------------->
+    <section id="galerie">
+      <h1>Galerie</h1>
+      <figure class="fig__galerie">
+        <figure>
+          <img
+            width="350"
+            height="200"
+            src="images/foutainSquare.webp"
+            alt=""
+          />
+          <figcaption>City of Tears</figcaption>
+        </figure>
+        <figure>
+          <img width="350" height="200" src="images/queenGarden.jpg" alt="" />
+          <figcaption>Queen's Garden</figcaption>
+        </figure>
+        <figure>
+          <img width="350" height="200" src="images/whitePalace.webp" alt="" />
+          <figcaption>White Palace</figcaption>
+        </figure>
+        <figure>
+          <img width="350" height="200" src="images/crystalpeak.jpg" alt="" />
+          <figcaption>Crystal Peak</figcaption>
+        </figure>
+        <figure>
+          <img
+            width="350"
+            height="200"
+            src="images/ancientbassin.webp"
+            alt=""
+          />
+          <figcaption>Ancient Bassin</figcaption>
+        </figure>
+        <figure>
+          <img width="350" height="200" src="images/jonisrepose.jpg" alt="" />
+          <figcaption>Jonis Repose</figcaption>
+        </figure>
+      </figure>
+    </section>
+    <!------------------------------------- Vidéo ------------------->
+    <section id="video">
+      <h1>Vidéo</h1>
+      <div class="youtube">
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/7JWQ9KjwPyE"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <iframe
+          width="300"
+          height="200"
+          src="https://www.youtube.com/embed/W-VLdOhkez4"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </section>
+    <!------------------------------------- Pied de page ------------>
+    <section id="pied-page">
+      <h1>Pied de page</h1>
+      <div class="footer">
+        <dl>
+          <dt>Nous trouver</dt>
+          <dd>514-254-7131</dd>
+          <dd>3800 Sherbrooke est</dd>
+          <dd>Montréal, QC H1X 2A2</dd>
+        </dl>
+        <dl>
+          <dt>Liens importants</dt>
+          <dd><a href="#">Adresse</a></dd>
+          <dd><a href="#">Régates importantes</a></dd>
+          <dd><a href="#">Nous suivre</a></dd>
+          <dd><a href="#">Résultat</a></dd>
+        </dl>
+        <dl>
+          <dt>Description du département</dt>
+          <dd>expliquer ce que</dd>
+          <dd>c'est multimedia</dd>
+        </dl>
+      </div>
+      <div class="sociaux">
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=github&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=messenger&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=paypal&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+        <img
+          src="https://s2.svgbox.net/social.svg?ic=wikipedia&color=fff"
+          width="16"
+          height="16"
+          alt=""
+        />
+      </div>
+      <ul>
+        <li>Avis de confidentialité</li>
+        <li>|</li>
+        <li>Privacy notice</li>
+      </ul>
+    </section>
+  </body>
+</html>

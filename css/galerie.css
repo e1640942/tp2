@@ -1,0 +1,27 @@
+#galerie {
+  z-index: 0;
+}
+.fig__galerie {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.fig__galerie img {
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+}
+#galerie figcaption {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  float: left;
+  position: absolute;
+  bottom: 3px;
+}
+#galerie figure {
+  position: relative;
+}
+#galerie img:hover {
+  position: relative;
+  transform: scale(2);
+  z-index: 1;
+}
